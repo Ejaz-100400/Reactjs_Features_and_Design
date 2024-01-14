@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import Poll from './Components/Poll'
 import PollRadio from './Components/ProgessRadio'
-import ProgressComponent from './Components/ProgressBar'
 import './App.css'
 
 function App() {
