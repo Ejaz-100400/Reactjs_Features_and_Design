@@ -2,6 +2,8 @@
 
 This project is a simple poll widget created using React. It allows users to vote for their favorite options using radio buttons and displays the results with a progress bar.
 
+<img src='https://raw.githubusercontent.com/Ejaz-100400/Reactjs_Features_and_Design/main/Poll_Design/Poll_Design/src/ss/op.png'/>
+
 ## Features
 
 - Users can vote for their favorite option by selecting a radio button.
