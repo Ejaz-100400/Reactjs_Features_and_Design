@@ -2,6 +2,8 @@
 
 Welcome to the Infinite Scroll React! This showcases a simple React application with infinite scrolling functionality using Axios for data fetching.
 
+<img src='https://raw.githubusercontent.com/Ejaz-100400/Reactjs_Features_and_Design/main/Infinit_Scroll/src/ss/op.png'/>
+
 ## Getting Started
 
 ### Installation
