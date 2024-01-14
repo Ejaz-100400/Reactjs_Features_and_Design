@@ -1,42 +1,50 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  margin:0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.App{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(102,100,237);
+  color:white;
+  min-height:100vh
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.progress-bar{
+  background-color: rgb(102,100,237);
+}
+.progress{
+  height:10px;
+}
+.form-check-input:checked{
+  background-color: rgb(102,100,237);
+  border-color: rgb(102,100,237);
+  color:rgb(102,100,237)
+}
+/* .form-check-input:checked{
+  --bs-form-check-bg-image:none;
+} */
+button{
+  background-color: rgb(102,100,237) !important;
+  margin-top: 20px;
+  color:white !important;
+  width:100%;
 }
 
-.card {
-  padding: 2em;
+.poll-item{
+  border:1px solid silver;
+  border-radius:6px;
 }
-
-.read-the-docs {
-  color: #888;
+.poll-item.selected {
+  border: 1px solid rgb(102, 100, 237);
+}
+.progress-bar.not-selected {
+  background-color: silver;
 }
