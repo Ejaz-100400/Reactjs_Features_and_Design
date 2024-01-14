@@ -1,4 +1,4 @@
-# Poll Design Project
+# Poll Design
 
 This project is a simple poll widget created using React. It allows users to vote for their favorite options using radio buttons and displays the results with a progress bar.
 
