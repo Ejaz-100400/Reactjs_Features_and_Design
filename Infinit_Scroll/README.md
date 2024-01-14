@@ -6,7 +6,7 @@ Welcome to the Infinite Scroll React! This showcases a simple React application 
 
 ### Installation
 1. Clone the repository:
-   git clone https://github.com/your-username/infinite-scroll-react.git
+   git clone https://github.com/Ejaz-100400/Reactjs_Features_and_Design/tree/main/Infinit_Scroll
    cd infinit_scroll
 
 # Project Usage
