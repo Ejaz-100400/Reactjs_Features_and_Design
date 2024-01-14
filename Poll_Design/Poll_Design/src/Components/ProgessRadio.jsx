@@ -7,7 +7,8 @@ const PollRadio = () => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [votes, setVotes] = useState(Array(options.length).fill(0));
 
-  const handleVote = () => {
+  const handleVote = (e) => {
+    e.preventDefault();
     if (selectedOption !== null) {
       const newVotes = [...votes];
       newVotes[selectedOption]++;
