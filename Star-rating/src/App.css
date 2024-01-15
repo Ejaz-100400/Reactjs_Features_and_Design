@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.App{
+  background-color: #242424;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  min-height:100vh
+}
+.star{
+  font-size: 60px;
+  margin-top:30px;
+  padding:5px;
+}
+.star:hover{
+  transition: all 0.2s ease-in;
+}
+h1{
+  text-align: center;
+}
